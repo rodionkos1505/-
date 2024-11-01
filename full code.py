@@ -6,7 +6,7 @@ while True:
     canvas = Canvas(width = 2560, height = 1600, bg = 'blue')
     canvas.pack(expand = YES, fill = BOTH)
 
-    image = ImageTk.PhotoImage(file = "Фон.png")
+    image = ImageTk.PhotoImage(file = "fon.png")
     canvas.create_image(0.5, 1, image = image, anchor = NW)
 
     print('Привет! Ты попал в игру "Города"! Называй название города, а я тебе введу другой город с названием, начинающимся на последнюю букву твоего. Ты тоже должен следовать этим правилам. Но повторять один и тот же город дважды нельзя! Погнали!')
